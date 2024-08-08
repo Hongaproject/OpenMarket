@@ -1,0 +1,222 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+container{
+    margin-top: 70px;
+}
+
+.logo{
+    width: 238px;
+    height: 74px;
+    margin: auto;
+}
+
+.auth{
+    margin-top: 70px;
+    width: 550px;
+    height: 646px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+.auth-options{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.auth-options span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.auth-options .customer{
+    width: 275px;
+    height: 70px;
+    border-bottom: none;
+}
+
+.auth-options .seller{
+    width: 275px;
+    height: 70px;
+    border: 1px solid #ccc;
+    background-color: #d3d3d3;
+}
+
+.auth-id {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+
+.auth-id label{
+    margin-bottom: 10px;
+    color: #767676;
+}
+
+.auth-input-container {
+    display: flex;
+    align-items: center;
+}
+.auth-input-container input {
+    width: 346px;
+    height: 54px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+.auth-input-container button {
+    width: 122px;
+    height: 54px;
+    background-color: #21BF48;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 12px; 
+}
+
+.auth-pw{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+
+.auth-pw label{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: #767676;
+}
+
+.auth-pw input{
+    width: 480px;
+    height: 54px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+.auth-ckpw{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+
+.auth-ckpw label{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: #767676;
+}
+
+.auth-ckpw input{
+    width: 480px;
+    height: 54px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+.name{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+
+.name label{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #767676;
+}
+
+.name input{
+    width: 480px;
+    height: 54px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+.phone {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+
+.phone label {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: #767676;
+}
+
+.phone-input-container {
+    display: flex;
+    gap: 12px;
+}
+
+.phone-input-container select,
+.phone-input-container input {
+    width: 152px;
+    height: 54px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.check {
+    width: 480px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.check input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin: 0; 
+    position: relative;
+    top: 2px; 
+}
+
+.check p {
+    width: 454px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #767676;
+}
+
+.check span {
+    font-weight: bold;
+    color: #767676; 
+    text-decoration: underline;
+}
+
+.btn{
+    width: 480px;
+    height: 60px;
+    background-color: #c4c4c4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 110px;
+    font-size: 22px;
+    cursor: pointer;
+}
