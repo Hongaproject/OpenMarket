@@ -81,6 +81,7 @@ form button{
     font-weight: 700;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .auth{
@@ -93,3 +94,6 @@ form button{
     color: black;
 }
 
+#warning{
+    color: #EB5757;
+}

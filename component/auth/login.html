@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/component/auth/css/login.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <container>
@@ -16,10 +17,10 @@
                 <span class="active">구매회원 로그인</span>
                 <span class="inactive">판매회원 로그인</span>
             </div>
-            <form action="">
-                <input type="text" placeholder="아이디">
-                <input type="password" placeholder="비밀번호">
-                <p>경고 문구 나오는 부분</p>
+            <form action="submit">
+                <input id="id" type="text" placeholder="아이디">
+                <input id="pw" type="password" placeholder="비밀번호">
+                <p id="warning"></p>
                 <button type="submit">로그인</button>
             </form>
         </div>
@@ -28,5 +29,6 @@
             <span>비밀번호 찾기</span>
         </div>
     </container>
+    <script src="/component/auth/js/login.js"></script>
 </body>
 </html>
